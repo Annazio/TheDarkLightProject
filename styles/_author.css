@@ -1,0 +1,156 @@
+h3{
+font-family: Cardo;
+font-size: 42px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: center;
+color: var(--dark-blue);
+}
+.about__title{
+font-family: Cardo;
+font-size: 42px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: left;
+color: var(--dark-blue);
+}
+.books{
+display: flex;
+gap: 20px;
+margin: 36px 70px 90px;
+}
+.books__items{
+display: flex;
+justify-content: space-between;
+}
+h6{
+font-family: Cardo;
+font-size: 32px;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0.3199999928474426px;
+text-align: left;
+color: var(--dark-blue);
+
+    
+}
+.price{
+font-family: Inter;
+font-size: 21px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+color: var(--accent);    
+}
+.about__book{
+font-family: Inter;
+font-size: 19px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: #969AA0;
+}
+.mode{
+display: flex;
+
+}
+section {
+position: relative;
+width: 100px;
+height: 60px;
+background-color: var(--white);
+padding-left: 26px;
+}
+
+section::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 16px;
+height: 16px;
+background-color: var(--accent);
+border-radius: 50%;
+}
+.book__mode{
+font-family: Cardo;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: var(--dark-blue);
+}
+.author__wrapper{
+display: flex;
+gap: 150px;
+}
+.about__author{
+font-family: Inter;
+font-size: 19px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+color: #969AA0;    
+}
+.numbers{
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+.number{
+font-family: Cardo;
+font-size: 54px;
+font-weight: 400;
+line-height: 77px;
+letter-spacing: 0em;
+text-align: left;
+color: var(--dark-blue);
+}
+.numbers__items{
+padding: 30px;
+}
+.numbers__items:not(:last-child) {
+border-right: 2px solid var(--accent); 
+}
+.number__description{
+font-family: Inter;
+font-size: 17px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #969AA0;
+}
+.qr__wrapper{
+display: flex;
+background-color: var(--dark-blue);
+margin-top: 55px;
+}
+.name{
+font-family: Cardo;
+font-size: 22px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: var(--accent);
+}
+.contact{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.1899999976158142px;
+    text-align: left;
+    color: #B4C7E7;
+}
+.numbers__items{
+border-right: 2px;
+color: var(--accent);
+}

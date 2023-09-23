@@ -1,0 +1,125 @@
+  
+.main{
+display: flex;
+align-items: center;
+background-color: var(--dark-blue);
+}
+
+.learn__wrapper{
+    background-color: var(--white);
+    padding: 110px 0 80px; 
+}
+.title__wrapper{
+    padding: 80px;
+    margin: 109px 70px 80px;
+}
+h3{
+font-family: Cardo;
+font-size: 42px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: 0;
+text-align: center;
+color: var(--dark-blue);
+}
+
+.wrapper__left__right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.learn__items{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 30px;    
+    max-width: 630px;
+}
+.learn__item{
+    background-color: #F4F8FF;
+    width: 300px;
+    min-height: 272px;
+    padding: 30px;
+}
+.circle {
+    display: block;
+    border-radius: 50%;
+    width: 50px;
+	height: 50px;
+    background-color: var(--accent);
+    text-align: center;
+    font-size: 23px;
+    line-height: 50px;
+}
+
+.learn__item_text{
+    margin-top: 30px;
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--dark-blue);
+}
+
+.learn__img{
+    height: 100%;
+}
+.learn__img img {
+    max-width: 100%;
+    height: auto; 
+}
+
+.articles__wrapper{
+    background-color: #F4F8FF;
+    padding: 110px 70px;
+}
+
+.people__wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.people__item{
+  max-width: 300px; 
+  border-radius: 20px; 
+  padding: 20px;
+}
+
+.people__item img{
+    max-width: 300px;   
+}
+.people__title{
+font-family: Cardo;
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0.23999999463558197px;
+text-align: left;
+color: var(--dark-blue);
+}
+.article__info{
+font-family: Inter;
+font-size: 19px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #969AA0;
+
+}
+.date{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: var(--dark-blue);      
+text-align: right;
+}
+
